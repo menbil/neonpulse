@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2343x8j52q0f"]
+
+[ext_resource type="Script" uid="uid://dsakm1t7xkn6" path="res://scripts/HitErrorBar.gd" id="1_script"]
+
+[node name="HitErrorBar" type="Control"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -60.0
+offset_right = 200.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_script")

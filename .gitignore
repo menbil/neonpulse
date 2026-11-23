@@ -1,0 +1,12 @@
+# Godot 4
+.godot/
+*.tmp
+
+# Python / Conda / Env
+.conda/
+.venv/
+__pycache__/
+*.pyc
+
+# Exports
+export/

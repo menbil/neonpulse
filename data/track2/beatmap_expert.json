@@ -1,0 +1,1138 @@
+{
+  "version": "4.1",
+  "title": "Generated Beatmap",
+  "artist": "NeonPulse",
+  "difficulty": "expert",
+  "bpm": 86.1,
+  "duration": 102.6,
+  "approach_time": 1.2,
+  "total_notes": 185,
+  "kiai_sections": [
+    {
+      "start": 18.3,
+      "end": 23.31
+    },
+    {
+      "start": 27.24,
+      "end": 38.17
+    },
+    {
+      "start": 64.13,
+      "end": 67.5
+    },
+    {
+      "start": 71.22,
+      "end": 74.79
+    },
+    {
+      "start": 78.32,
+      "end": 81.94
+    }
+  ],
+  "notes": [
+    {
+      "time": 1.416,
+      "x": 576,
+      "y": 244,
+      "pattern": "diamond"
+    },
+    {
+      "time": 1.765,
+      "x": 656,
+      "y": 324,
+      "pattern": "diamond"
+    },
+    {
+      "time": 2.113,
+      "x": 576,
+      "y": 404,
+      "pattern": "diamond"
+    },
+    {
+      "time": 2.461,
+      "x": 496,
+      "y": 324,
+      "pattern": "diamond"
+    },
+    {
+      "time": 2.717,
+      "x": 349,
+      "y": 402
+    },
+    {
+      "time": 3.413,
+      "x": 191,
+      "y": 428
+    },
+    {
+      "time": 4.156,
+      "x": 130,
+      "y": 400,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 4.505,
+      "x": 130,
+      "y": 449,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 4.853,
+      "x": 130,
+      "y": 421,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 5.201,
+      "x": 130,
+      "y": 470,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 5.55,
+      "x": 130,
+      "y": 442,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 6.223,
+      "x": 290,
+      "y": 433
+    },
+    {
+      "time": 6.92,
+      "x": 243,
+      "y": 274
+    },
+    {
+      "time": 7.593,
+      "x": 387,
+      "y": 210
+    },
+    {
+      "time": 8.197,
+      "x": 492,
+      "y": 298
+    },
+    {
+      "time": 8.754,
+      "x": 609,
+      "y": 245
+    },
+    {
+      "note_type": "hold",
+      "time": 9.427,
+      "x": 609,
+      "y": 245,
+      "end_x": 673,
+      "end_y": 154,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": 55
+        }
+      ],
+      "duration": 0.697
+    },
+    {
+      "time": 10.728,
+      "x": 823,
+      "y": 208
+    },
+    {
+      "time": 11.471,
+      "x": 823,
+      "y": 140,
+      "pattern": "diamond"
+    },
+    {
+      "time": 11.819,
+      "x": 903,
+      "y": 220,
+      "pattern": "diamond"
+    },
+    {
+      "time": 12.167,
+      "x": 823,
+      "y": 300,
+      "pattern": "diamond"
+    },
+    {
+      "time": 12.516,
+      "x": 743,
+      "y": 220,
+      "pattern": "diamond"
+    },
+    {
+      "time": 12.841,
+      "x": 595,
+      "y": 341
+    },
+    {
+      "time": 13.56,
+      "x": 454,
+      "y": 433
+    },
+    {
+      "time": 14.234,
+      "x": 320,
+      "y": 344
+    },
+    {
+      "time": 14.93,
+      "x": 320,
+      "y": 264,
+      "pattern": "diamond"
+    },
+    {
+      "time": 15.279,
+      "x": 400,
+      "y": 344,
+      "pattern": "diamond"
+    },
+    {
+      "time": 15.627,
+      "x": 320,
+      "y": 424,
+      "pattern": "diamond"
+    },
+    {
+      "time": 15.975,
+      "x": 240,
+      "y": 344,
+      "pattern": "diamond"
+    },
+    {
+      "time": 16.509,
+      "x": 208,
+      "y": 276,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 16.858,
+      "x": 133,
+      "y": 273,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 17.206,
+      "x": 130,
+      "y": 205,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 17.554,
+      "x": 130,
+      "y": 202,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 17.903,
+      "x": 264,
+      "y": 202,
+      "pattern": "circle"
+    },
+    {
+      "time": 18.251,
+      "x": 197,
+      "y": 269,
+      "pattern": "circle"
+    },
+    {
+      "time": 18.599,
+      "x": 130,
+      "y": 202,
+      "pattern": "circle"
+    },
+    {
+      "time": 18.947,
+      "x": 197,
+      "y": 135,
+      "pattern": "circle"
+    },
+    {
+      "time": 19.412,
+      "x": 408,
+      "y": 149,
+      "kiai": true
+    },
+    {
+      "time": 19.76,
+      "x": 471,
+      "y": 209,
+      "kiai": true
+    },
+    {
+      "time": 20.108,
+      "x": 520,
+      "y": 273,
+      "kiai": true
+    },
+    {
+      "time": 20.875,
+      "x": 481,
+      "y": 490,
+      "kiai": true
+    },
+    {
+      "time": 21.571,
+      "x": 305,
+      "y": 440,
+      "kiai": true
+    },
+    {
+      "time": 22.268,
+      "x": 166,
+      "y": 296,
+      "kiai": true
+    },
+    {
+      "time": 23.081,
+      "x": 346,
+      "y": 195,
+      "kiai": true
+    },
+    {
+      "time": 23.464,
+      "x": 440,
+      "y": 207
+    },
+    {
+      "time": 23.847,
+      "x": 527,
+      "y": 270
+    },
+    {
+      "time": 24.543,
+      "x": 498,
+      "y": 471
+    },
+    {
+      "time": 25.217,
+      "x": 662,
+      "y": 424
+    },
+    {
+      "time": 25.913,
+      "x": 844,
+      "y": 424
+    },
+    {
+      "time": 26.749,
+      "x": 844,
+      "y": 344,
+      "pattern": "diamond"
+    },
+    {
+      "time": 27.098,
+      "x": 924,
+      "y": 424,
+      "pattern": "diamond"
+    },
+    {
+      "time": 27.446,
+      "x": 844,
+      "y": 504,
+      "pattern": "diamond"
+    },
+    {
+      "time": 27.794,
+      "x": 764,
+      "y": 424,
+      "pattern": "diamond"
+    },
+    {
+      "time": 28.189,
+      "x": 583,
+      "y": 300,
+      "kiai": true
+    },
+    {
+      "time": 28.886,
+      "x": 583,
+      "y": 220,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 29.234,
+      "x": 663,
+      "y": 300,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 29.582,
+      "x": 583,
+      "y": 380,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 29.931,
+      "x": 503,
+      "y": 300,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 30.418,
+      "x": 294,
+      "y": 344,
+      "note_type": "double_tap",
+      "kiai": true
+    },
+    {
+      "time": 30.79,
+      "x": 203,
+      "y": 346,
+      "kiai": true
+    },
+    {
+      "time": 31.161,
+      "x": 170,
+      "y": 254,
+      "kiai": true
+    },
+    {
+      "time": 31.858,
+      "x": 338,
+      "y": 148,
+      "kiai": true
+    },
+    {
+      "time": 32.554,
+      "x": 471,
+      "y": 269,
+      "kiai": true
+    },
+    {
+      "time": 32.903,
+      "x": 456,
+      "y": 346,
+      "kiai": true
+    },
+    {
+      "time": 33.251,
+      "x": 542,
+      "y": 376,
+      "kiai": true
+    },
+    {
+      "time": 34.064,
+      "x": 695,
+      "y": 230,
+      "kiai": true
+    },
+    {
+      "time": 34.76,
+      "x": 720,
+      "y": 389,
+      "kiai": true
+    },
+    {
+      "time": 35.527,
+      "x": 939,
+      "y": 416,
+      "kiai": true
+    },
+    {
+      "time": 36.223,
+      "x": 970,
+      "y": 239,
+      "kiai": true
+    },
+    {
+      "time": 36.92,
+      "x": 849,
+      "y": 401,
+      "kiai": true
+    },
+    {
+      "time": 37.732,
+      "x": 770,
+      "y": 209,
+      "kiai": true
+    },
+    {
+      "time": 38.116,
+      "x": 732,
+      "y": 295,
+      "kiai": true
+    },
+    {
+      "time": 38.499,
+      "x": 729,
+      "y": 400
+    },
+    {
+      "note_type": "hold",
+      "time": 39.195,
+      "x": 729,
+      "y": 400,
+      "end_x": 776,
+      "end_y": 482,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": -55
+        }
+      ],
+      "duration": 0.35
+    },
+    {
+      "time": 39.892,
+      "x": 946,
+      "y": 426
+    },
+    {
+      "time": 40.24,
+      "x": 1009,
+      "y": 383
+    },
+    {
+      "time": 40.588,
+      "x": 991,
+      "y": 295
+    },
+    {
+      "time": 41.401,
+      "x": 849,
+      "y": 140
+    },
+    {
+      "time": 41.749,
+      "x": 779,
+      "y": 192
+    },
+    {
+      "time": 42.098,
+      "x": 764,
+      "y": 273
+    },
+    {
+      "time": 42.864,
+      "x": 772,
+      "y": 493
+    },
+    {
+      "time": 43.537,
+      "x": 628,
+      "y": 392
+    },
+    {
+      "time": 44.234,
+      "x": 475,
+      "y": 445
+    },
+    {
+      "time": 44.536,
+      "x": 564,
+      "y": 429,
+      "pattern": "circle"
+    },
+    {
+      "time": 44.884,
+      "x": 475,
+      "y": 518,
+      "pattern": "circle"
+    },
+    {
+      "time": 45.232,
+      "x": 386,
+      "y": 429,
+      "pattern": "circle"
+    },
+    {
+      "time": 45.581,
+      "x": 475,
+      "y": 340,
+      "pattern": "circle"
+    },
+    {
+      "time": 46.068,
+      "x": 397,
+      "y": 201,
+      "note_type": "double_tap"
+    },
+    {
+      "time": 46.672,
+      "x": 241,
+      "y": 234
+    },
+    {
+      "time": 47.369,
+      "x": 208,
+      "y": 396
+    },
+    {
+      "time": 48.112,
+      "x": 345,
+      "y": 506
+    },
+    {
+      "note_type": "hold",
+      "time": 48.739,
+      "x": 345,
+      "y": 506,
+      "end_x": 375,
+      "end_y": 416,
+      "curve_type": "bezier",
+      "control_points": [
+        {
+          "x": 328,
+          "y": 450
+        }
+      ],
+      "duration": 0.35
+    },
+    {
+      "note_type": "hold",
+      "time": 49.482,
+      "x": 375,
+      "y": 416,
+      "end_x": 342,
+      "end_y": 310,
+      "curve_type": "linear",
+      "control_points": [],
+      "duration": 0.697
+    },
+    {
+      "time": 50.875,
+      "x": 246,
+      "y": 178
+    },
+    {
+      "time": 51.572,
+      "x": 404,
+      "y": 147
+    },
+    {
+      "time": 52.175,
+      "x": 511,
+      "y": 230
+    },
+    {
+      "time": 52.733,
+      "x": 624,
+      "y": 180
+    },
+    {
+      "time": 53.383,
+      "x": 725,
+      "y": 298
+    },
+    {
+      "time": 54.01,
+      "x": 643,
+      "y": 443
+    },
+    {
+      "time": 54.706,
+      "x": 494,
+      "y": 503
+    },
+    {
+      "time": 55.449,
+      "x": 437,
+      "y": 337
+    },
+    {
+      "time": 55.763,
+      "x": 479,
+      "y": 391
+    },
+    {
+      "time": 56.076,
+      "x": 479,
+      "y": 311,
+      "pattern": "diamond"
+    },
+    {
+      "time": 56.424,
+      "x": 559,
+      "y": 391,
+      "pattern": "diamond"
+    },
+    {
+      "time": 56.773,
+      "x": 479,
+      "y": 471,
+      "pattern": "diamond"
+    },
+    {
+      "time": 57.121,
+      "x": 399,
+      "y": 391,
+      "pattern": "diamond"
+    },
+    {
+      "time": 57.516,
+      "x": 272,
+      "y": 303
+    },
+    {
+      "time": 58.212,
+      "x": 401,
+      "y": 200,
+      "note_type": "double_tap"
+    },
+    {
+      "time": 58.909,
+      "x": 596,
+      "y": 149
+    },
+    {
+      "time": 59.722,
+      "x": 771,
+      "y": 261
+    },
+    {
+      "time": 60.105,
+      "x": 833,
+      "y": 334
+    },
+    {
+      "time": 60.488,
+      "x": 783,
+      "y": 428
+    },
+    {
+      "time": 61.185,
+      "x": 580,
+      "y": 426
+    },
+    {
+      "time": 61.858,
+      "x": 454,
+      "y": 310
+    },
+    {
+      "time": 62.555,
+      "x": 304,
+      "y": 208
+    },
+    {
+      "time": 63.39,
+      "x": 273,
+      "y": 140,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 63.739,
+      "x": 198,
+      "y": 136,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 64.087,
+      "x": 167,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 64.435,
+      "x": 130,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 64.83,
+      "x": 182,
+      "y": 343,
+      "kiai": true
+    },
+    {
+      "time": 65.527,
+      "x": 336,
+      "y": 443,
+      "kiai": true
+    },
+    {
+      "time": 66.223,
+      "x": 535,
+      "y": 477,
+      "kiai": true
+    },
+    {
+      "time": 67.059,
+      "x": 535,
+      "y": 348,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 67.408,
+      "x": 615,
+      "y": 428,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 67.756,
+      "x": 535,
+      "y": 508,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 68.104,
+      "x": 455,
+      "y": 428,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 68.499,
+      "x": 276,
+      "y": 342
+    },
+    {
+      "time": 69.195,
+      "x": 222,
+      "y": 173
+    },
+    {
+      "time": 69.544,
+      "x": 240,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 69.892,
+      "x": 183,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 70.24,
+      "x": 201,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 70.589,
+      "x": 144,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 70.937,
+      "x": 162,
+      "y": 130,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 71.401,
+      "x": 160,
+      "y": 291,
+      "kiai": true
+    },
+    {
+      "time": 72.168,
+      "x": 307,
+      "y": 457,
+      "kiai": true
+    },
+    {
+      "time": 72.864,
+      "x": 481,
+      "y": 408,
+      "kiai": true
+    },
+    {
+      "time": 73.561,
+      "x": 481,
+      "y": 328,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 73.909,
+      "x": 561,
+      "y": 408,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 74.257,
+      "x": 481,
+      "y": 488,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 74.606,
+      "x": 401,
+      "y": 408,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 75.14,
+      "x": 210,
+      "y": 485
+    },
+    {
+      "time": 75.836,
+      "x": 202,
+      "y": 284
+    },
+    {
+      "time": 76.533,
+      "x": 355,
+      "y": 190
+    },
+    {
+      "time": 76.881,
+      "x": 330,
+      "y": 264
+    },
+    {
+      "time": 77.23,
+      "x": 321,
+      "y": 354
+    },
+    {
+      "time": 78.042,
+      "x": 276,
+      "y": 414,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 78.391,
+      "x": 309,
+      "y": 482,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 78.739,
+      "x": 264,
+      "y": 518,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 79.087,
+      "x": 297,
+      "y": 518,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 79.435,
+      "x": 252,
+      "y": 518,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 80.179,
+      "x": 207,
+      "y": 518,
+      "pattern": "arc_flow",
+      "kiai": true
+    },
+    {
+      "time": 80.527,
+      "x": 240,
+      "y": 518,
+      "pattern": "arc_flow",
+      "kiai": true
+    },
+    {
+      "time": 80.875,
+      "x": 195,
+      "y": 518,
+      "pattern": "arc_flow",
+      "kiai": true
+    },
+    {
+      "time": 81.223,
+      "x": 228,
+      "y": 518,
+      "pattern": "arc_flow",
+      "kiai": true
+    },
+    {
+      "time": 81.711,
+      "x": 323,
+      "y": 423,
+      "pattern": "circle",
+      "kiai": true
+    },
+    {
+      "time": 82.059,
+      "x": 257,
+      "y": 513,
+      "pattern": "circle",
+      "kiai": true
+    },
+    {
+      "time": 82.408,
+      "x": 151,
+      "y": 479,
+      "pattern": "circle",
+      "kiai": true
+    },
+    {
+      "time": 82.756,
+      "x": 151,
+      "y": 367,
+      "pattern": "circle",
+      "kiai": true
+    },
+    {
+      "time": 83.104,
+      "x": 257,
+      "y": 333,
+      "pattern": "circle",
+      "kiai": true
+    },
+    {
+      "time": 83.847,
+      "x": 416,
+      "y": 402
+    },
+    {
+      "time": 84.196,
+      "x": 459,
+      "y": 463,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 84.544,
+      "x": 533,
+      "y": 453,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 84.892,
+      "x": 576,
+      "y": 514,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 85.24,
+      "x": 650,
+      "y": 504,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 85.589,
+      "x": 693,
+      "y": 518,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 86.053,
+      "x": 740,
+      "y": 457
+    },
+    {
+      "time": 86.819,
+      "x": 740,
+      "y": 348,
+      "pattern": "diamond"
+    },
+    {
+      "time": 87.168,
+      "x": 820,
+      "y": 428,
+      "pattern": "diamond"
+    },
+    {
+      "time": 87.516,
+      "x": 740,
+      "y": 508,
+      "pattern": "diamond"
+    },
+    {
+      "time": 87.864,
+      "x": 660,
+      "y": 428,
+      "pattern": "diamond"
+    },
+    {
+      "time": 88.213,
+      "x": 533,
+      "y": 271
+    },
+    {
+      "time": 89.049,
+      "x": 327,
+      "y": 339
+    },
+    {
+      "time": 89.792,
+      "x": 254,
+      "y": 322,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 90.14,
+      "x": 205,
+      "y": 379,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 90.488,
+      "x": 132,
+      "y": 362,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 90.836,
+      "x": 130,
+      "y": 419,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 91.185,
+      "x": 286,
+      "y": 504
+    },
+    {
+      "time": 91.533,
+      "x": 359,
+      "y": 475
+    },
+    {
+      "time": 91.881,
+      "x": 346,
+      "y": 386
+    },
+    {
+      "time": 92.694,
+      "x": 376,
+      "y": 317,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 93.042,
+      "x": 328,
+      "y": 259,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 93.391,
+      "x": 358,
+      "y": 190,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 93.739,
+      "x": 310,
+      "y": 132,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 94.087,
+      "x": 340,
+      "y": 130,
+      "pattern": "arc_flow"
+    },
+    {
+      "time": 94.854,
+      "x": 165,
+      "y": 183
+    }
+  ]
+}

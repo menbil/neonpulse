@@ -1,0 +1,112 @@
+[gd_scene load_steps=9 format=3 uid="uid://dux14v7luldd6"]
+
+[ext_resource type="Script" uid="uid://dtc7a2brfb1ab" path="res://scripts/Note.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://gellciybgkit" path="res://—Pngtree—brush circle creative brush effect_6020152.png" id="2_vrulo"]
+[ext_resource type="Texture2D" uid="uid://c0ybh1a57f64g" path="res://—Pngtree—pink blue neon border light_9157194.png" id="3_bnwil"]
+[ext_resource type="Texture2D" uid="uid://c47vrrydj3l7i" path="res://pngfind.com-empty-stamp-png-2087453.png" id="4_vrulo"]
+[ext_resource type="Texture2D" uid="uid://bhwl8rx02gaab" path="res://f2c8dde62eb7e5a8dc02121cdaceb81b.png" id="5_75v05"]
+[ext_resource type="Texture2D" uid="uid://lk04r36vhr17" path="res://pngfind.com-empty-stamp-png-2087733.png" id="5_bnwil"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4sd47"]
+radius = 149.084
+
+[sub_resource type="Gradient" id="Gradient_1"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[node name="Note" type="Area2D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_4sd47")
+
+[node name="NoteSprite" type="Sprite2D" parent="."]
+position = Vector2(-2, 5.5)
+scale = Vector2(1.42857, 1.45238)
+texture = ExtResource("2_vrulo")
+
+[node name="ApproachCircle" type="Sprite2D" parent="."]
+position = Vector2(-0.500004, 3.49999)
+scale = Vector2(1.15209, 1.08365)
+texture = ExtResource("3_bnwil")
+
+[node name="EndCircleSprite" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+scale = Vector2(0.556641, 0.5625)
+texture = ExtResource("4_vrulo")
+
+[node name="SliderTrack" type="Line2D" parent="."]
+width = 5.0
+default_color = Color(0.750819, 0.969954, 0.324731, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="SliderBall" type="Sprite2D" parent="."]
+scale = Vector2(1.173, 1.06977)
+texture = ExtResource("5_75v05")
+
+[node name="FollowCircle" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.983636, 1)
+texture = ExtResource("5_bnwil")
+
+[node name="SwipeArrow" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(0, 1, 1, 0.8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_vrulo")
+
+[node name="PatternEffects" type="Node2D" parent="."]
+
+[node name="ArcTrail" type="Line2D" parent="PatternEffects"]
+visible = false
+width = 5.0
+default_color = Color(1, 0, 1, 0.8)
+gradient = SubResource("Gradient_1")
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="SpiralEffect" type="Node2D" parent="PatternEffects"]
+visible = false
+
+[node name="SpiralParticles" type="CPUParticles2D" parent="PatternEffects/SpiralEffect"]
+emitting = false
+amount = 30
+lifetime = 1.5
+emission_shape = 1
+emission_sphere_radius = 50.0
+direction = Vector2(0, -1)
+initial_velocity_min = 20.0
+initial_velocity_max = 40.0
+angular_velocity_min = -180.0
+angular_velocity_max = 180.0
+scale_amount_min = 0.3
+scale_amount_max = 0.7
+color = Color(1, 0.5, 0, 0.8)
+
+[node name="WaveEffect" type="Node2D" parent="PatternEffects"]
+visible = false
+
+[node name="WaveParticles" type="CPUParticles2D" parent="PatternEffects/WaveEffect"]
+emitting = false
+amount = 20
+emission_shape = 3
+emission_rect_extents = Vector2(30, 5)
+direction = Vector2(0, -1)
+gravity = Vector2(0, 20)
+initial_velocity_min = 15.0
+initial_velocity_max = 25.0
+scale_amount_min = 0.2
+scale_amount_max = 0.5
+color = Color(0, 1, 1, 0.8)
+
+[node name="PatternGlow" type="Sprite2D" parent="PatternEffects"]
+visible = false
+modulate = Color(1, 1, 1, 0.5)
+scale = Vector2(2, 2)
+texture = ExtResource("3_bnwil")

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bp6vchmc2ogti"]
+
+[ext_resource type="Script" uid="uid://crtg35q6agc7p" path="res://scripts/PerfectEffect.gd" id="1"]
+
+[node name="PerfectEffect" type="ColorRect"]
+z_index = 50
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(1, 1, 1, 0)
+script = ExtResource("1")

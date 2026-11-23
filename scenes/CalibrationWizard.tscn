@@ -1,0 +1,97 @@
+[gd_scene load_steps=2 format=3 uid="uid://calibration_wizard"]
+
+[ext_resource type="Script" path="res://scripts/CalibrationWizard.gd" id="1_script"]
+
+[node name="CalibrationWizard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1, 0.1, 0.15, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -200.0
+offset_right = 300.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🎵 CALIBRATION AUDIO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InstructionLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+custom_minimum_size = Vector2(550, 80)
+text = "Appuyez sur Démarrer pour commencer la calibration.
+Vous devrez taper en rythme avec le métronome."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="OffsetLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Offset actuel: 0 ms"
+horizontal_alignment = 1
+
+[node name="TapCountLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Taps: 0"
+horizontal_alignment = 1
+
+[node name="BeatIndicator" type="ColorRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+color = Color(0.3, 0.3, 0.3, 1)
+
+[node name="TapFeedback" type="ColorRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+color = Color(0, 0.4, 0, 1)
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="StartButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+text = "Démarrer"
+
+[node name="ApplyButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+disabled = true
+text = "Appliquer"
+
+[node name="CancelButton" type="Button" parent="VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+text = "Annuler"

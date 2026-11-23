@@ -1,0 +1,387 @@
+{
+  "notes": [
+    {
+      "time": 0.5341,
+      "x": 120,
+      "y": 481,
+      "note_type": "tap"
+    },
+    {
+      "time": 2.0434,
+      "x": 939,
+      "y": 372,
+      "note_type": "tap"
+    },
+    {
+      "time": 3.6223,
+      "x": 398,
+      "y": 368,
+      "note_type": "tap"
+    },
+    {
+      "time": 5.2245,
+      "x": 281,
+      "y": 418,
+      "note_type": "tap"
+    },
+    {
+      "time": 6.8034,
+      "x": 828,
+      "y": 382,
+      "note_type": "tap"
+    },
+    {
+      "time": 8.3824,
+      "x": 184,
+      "y": 278,
+      "note_type": "tap"
+    },
+    {
+      "time": 9.8917,
+      "x": 773,
+      "y": 476,
+      "note_type": "tap"
+    },
+    {
+      "time": 11.3778,
+      "x": 746,
+      "y": 229,
+      "note_type": "tap",
+      "scale": 0.7
+    },
+    {
+      "time": 11.8778,
+      "x": 606,
+      "y": 369,
+      "note_type": "tap",
+      "scale": 1.0
+    },
+    {
+      "time": 12.3778,
+      "x": 466,
+      "y": 229,
+      "note_type": "tap",
+      "scale": 1.3
+    },
+    {
+      "time": 15.3484,
+      "x": 537,
+      "y": 441,
+      "note_type": "tap"
+    },
+    {
+      "time": 16.9273,
+      "x": 1006,
+      "y": 297,
+      "note_type": "tap"
+    },
+    {
+      "time": 18.5295,
+      "x": 914,
+      "y": 187,
+      "note_type": "tap"
+    },
+    {
+      "time": 20.1085,
+      "x": 271,
+      "y": 458,
+      "note_type": "tap"
+    },
+    {
+      "time": 21.7107,
+      "x": 488,
+      "y": 374,
+      "note_type": "tap",
+      "scale": 0.7
+    },
+    {
+      "time": 22.2607,
+      "x": 598,
+      "y": 314,
+      "note_type": "tap",
+      "scale": 1.0
+    },
+    {
+      "time": 22.8107,
+      "x": 708,
+      "y": 254,
+      "note_type": "tap",
+      "scale": 1.3
+    },
+    {
+      "time": 26.6565,
+      "x": 885,
+      "y": 452,
+      "note_type": "tap"
+    },
+    {
+      "time": 28.2587,
+      "x": 265,
+      "y": 356,
+      "note_type": "tap"
+    },
+    {
+      "time": 29.8376,
+      "x": 584,
+      "y": 175,
+      "note_type": "tap"
+    },
+    {
+      "time": 31.4398,
+      "x": 879,
+      "y": 302,
+      "note_type": "tap"
+    },
+    {
+      "time": 33.0188,
+      "x": 433,
+      "y": 314,
+      "note_type": "tap"
+    },
+    {
+      "time": 34.621,
+      "x": 577,
+      "y": 361,
+      "note_type": "tap"
+    },
+    {
+      "time": 36.1999,
+      "x": 533,
+      "y": 278,
+      "note_type": "tap"
+    },
+    {
+      "time": 37.7789,
+      "x": 773,
+      "y": 156,
+      "note_type": "tap"
+    },
+    {
+      "time": 41.5637,
+      "x": 971,
+      "y": 137,
+      "note_type": "tap"
+    },
+    {
+      "time": 43.1659,
+      "x": 198,
+      "y": 422,
+      "note_type": "tap"
+    },
+    {
+      "time": 44.7449,
+      "x": 578,
+      "y": 252,
+      "note_type": "tap"
+    },
+    {
+      "time": 46.347,
+      "x": 993,
+      "y": 387,
+      "note_type": "tap"
+    },
+    {
+      "time": 47.926,
+      "x": 835,
+      "y": 409,
+      "note_type": "tap"
+    },
+    {
+      "time": 49.5282,
+      "x": 314,
+      "y": 377,
+      "note_type": "tap"
+    },
+    {
+      "time": 51.1071,
+      "x": 760,
+      "y": 246,
+      "note_type": "hold",
+      "duration": 1.2200000286102295,
+      "end_x": 803,
+      "end_y": 335
+    },
+    {
+      "time": 55.2635,
+      "x": 478,
+      "y": 491,
+      "note_type": "tap"
+    },
+    {
+      "time": 56.8657,
+      "x": 594,
+      "y": 245,
+      "note_type": "tap",
+      "scale": 0.7
+    },
+    {
+      "time": 57.3657,
+      "x": 454,
+      "y": 385,
+      "note_type": "tap",
+      "scale": 1.0
+    },
+    {
+      "time": 57.8657,
+      "x": 314,
+      "y": 245,
+      "note_type": "tap",
+      "scale": 1.3
+    },
+    {
+      "time": 60.8363,
+      "x": 350,
+      "y": 440,
+      "note_type": "tap"
+    },
+    {
+      "time": 62.4385,
+      "x": 739,
+      "y": 432,
+      "note_type": "tap"
+    },
+    {
+      "time": 63.971,
+      "x": 689,
+      "y": 195,
+      "note_type": "tap"
+    },
+    {
+      "time": 65.4106,
+      "x": 370,
+      "y": 216,
+      "note_type": "tap"
+    },
+    {
+      "time": 67.8023,
+      "x": 444,
+      "y": 349,
+      "note_type": "tap",
+      "scale": 0.7
+    },
+    {
+      "time": 68.3523,
+      "x": 564,
+      "y": 349,
+      "note_type": "tap",
+      "scale": 1.0
+    },
+    {
+      "time": 68.9023,
+      "x": 684,
+      "y": 349,
+      "note_type": "tap",
+      "scale": 1.3
+    },
+    {
+      "time": 72.5624,
+      "x": 561,
+      "y": 439,
+      "note_type": "tap"
+    },
+    {
+      "time": 74.1413,
+      "x": 564,
+      "y": 207,
+      "note_type": "tap"
+    },
+    {
+      "time": 75.7435,
+      "x": 299,
+      "y": 453,
+      "note_type": "tap"
+    },
+    {
+      "time": 77.3224,
+      "x": 199,
+      "y": 239,
+      "note_type": "tap"
+    },
+    {
+      "time": 78.9246,
+      "x": 926,
+      "y": 289,
+      "note_type": "tap"
+    },
+    {
+      "time": 80.5268,
+      "x": 819,
+      "y": 289,
+      "note_type": "tap"
+    },
+    {
+      "time": 82.1058,
+      "x": 732,
+      "y": 450,
+      "note_type": "tap"
+    },
+    {
+      "time": 83.6847,
+      "x": 533,
+      "y": 133,
+      "note_type": "tap"
+    },
+    {
+      "time": 85.2869,
+      "x": 193,
+      "y": 455,
+      "note_type": "tap"
+    },
+    {
+      "time": 86.8659,
+      "x": 416,
+      "y": 152,
+      "note_type": "tap"
+    },
+    {
+      "time": 88.4448,
+      "x": 898,
+      "y": 135,
+      "note_type": "tap"
+    },
+    {
+      "time": 90.047,
+      "x": 840,
+      "y": 255,
+      "note_type": "tap"
+    },
+    {
+      "time": 91.6259,
+      "x": 301,
+      "y": 372,
+      "note_type": "tap",
+      "scale": 0.7
+    },
+    {
+      "time": 92.1259,
+      "x": 421,
+      "y": 372,
+      "note_type": "tap",
+      "scale": 1.0
+    },
+    {
+      "time": 92.6259,
+      "x": 541,
+      "y": 372,
+      "note_type": "tap",
+      "scale": 1.3
+    },
+    {
+      "time": 96.4093,
+      "x": 631,
+      "y": 205,
+      "note_type": "tap"
+    },
+    {
+      "time": 97.9882,
+      "x": 796,
+      "y": 384,
+      "note_type": "tap"
+    }
+  ],
+  "approach_time": 1.5,
+  "tempo": 152.0,
+  "duration": 104.9,
+  "difficulty": "normal",
+  "total_notes": 60
+}

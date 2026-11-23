@@ -1,0 +1,983 @@
+{
+  "version": "4.1",
+  "title": "Generated Beatmap",
+  "artist": "NeonPulse",
+  "difficulty": "hard",
+  "bpm": 86.1,
+  "duration": 102.6,
+  "approach_time": 1.45,
+  "total_notes": 152,
+  "kiai_sections": [
+    {
+      "start": 18.3,
+      "end": 23.31
+    },
+    {
+      "start": 27.24,
+      "end": 38.17
+    },
+    {
+      "start": 64.13,
+      "end": 67.5
+    },
+    {
+      "start": 71.22,
+      "end": 74.79
+    },
+    {
+      "start": 78.32,
+      "end": 81.94
+    }
+  ],
+  "notes": [
+    {
+      "time": 1.416,
+      "x": 576,
+      "y": 244,
+      "pattern": "diamond"
+    },
+    {
+      "time": 1.765,
+      "x": 656,
+      "y": 324,
+      "pattern": "diamond"
+    },
+    {
+      "time": 2.113,
+      "x": 576,
+      "y": 404,
+      "pattern": "diamond"
+    },
+    {
+      "time": 2.717,
+      "x": 435,
+      "y": 451
+    },
+    {
+      "time": 3.413,
+      "x": 292,
+      "y": 454
+    },
+    {
+      "time": 4.156,
+      "x": 227,
+      "y": 416,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 4.505,
+      "x": 164,
+      "y": 457,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 4.853,
+      "x": 130,
+      "y": 419,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 5.201,
+      "x": 130,
+      "y": 460,
+      "pattern": "zigzag"
+    },
+    {
+      "time": 5.526,
+      "x": 185,
+      "y": 297
+    },
+    {
+      "time": 6.223,
+      "x": 303,
+      "y": 215
+    },
+    {
+      "time": 6.92,
+      "x": 423,
+      "y": 302
+    },
+    {
+      "time": 7.593,
+      "x": 399,
+      "y": 441
+    },
+    {
+      "time": 8.197,
+      "x": 277,
+      "y": 451
+    },
+    {
+      "note_type": "hold",
+      "time": 8.754,
+      "x": 277,
+      "y": 451,
+      "end_x": 412,
+      "end_y": 353,
+      "curve_type": "bezier",
+      "control_points": [
+        {
+          "x": 310,
+          "y": 355
+        }
+      ],
+      "duration": 1.045
+    },
+    {
+      "time": 10.031,
+      "x": 554,
+      "y": 369
+    },
+    {
+      "time": 10.728,
+      "x": 646,
+      "y": 369,
+      "pattern": "circle"
+    },
+    {
+      "time": 11.076,
+      "x": 508,
+      "y": 449,
+      "pattern": "circle"
+    },
+    {
+      "time": 11.424,
+      "x": 508,
+      "y": 289,
+      "pattern": "circle"
+    },
+    {
+      "time": 12.098,
+      "x": 621,
+      "y": 223
+    },
+    {
+      "time": 12.841,
+      "x": 621,
+      "y": 143,
+      "pattern": "diamond"
+    },
+    {
+      "time": 13.189,
+      "x": 701,
+      "y": 223,
+      "pattern": "diamond"
+    },
+    {
+      "time": 13.537,
+      "x": 621,
+      "y": 303,
+      "pattern": "diamond"
+    },
+    {
+      "time": 14.234,
+      "x": 608,
+      "y": 446
+    },
+    {
+      "time": 14.93,
+      "x": 429,
+      "y": 460
+    },
+    {
+      "time": 15.766,
+      "x": 337,
+      "y": 292
+    },
+    {
+      "time": 16.509,
+      "x": 204,
+      "y": 412
+    },
+    {
+      "note_type": "hold",
+      "time": 17.206,
+      "x": 204,
+      "y": 412,
+      "end_x": 287,
+      "end_y": 267,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": -55
+        }
+      ],
+      "duration": 1.045
+    },
+    {
+      "time": 18.599,
+      "x": 165,
+      "y": 160,
+      "kiai": true
+    },
+    {
+      "time": 19.412,
+      "x": 348,
+      "y": 205,
+      "kiai": true
+    },
+    {
+      "time": 20.108,
+      "x": 456,
+      "y": 300,
+      "kiai": true
+    },
+    {
+      "time": 20.875,
+      "x": 639,
+      "y": 373,
+      "kiai": true
+    },
+    {
+      "time": 21.571,
+      "x": 639,
+      "y": 293,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 21.92,
+      "x": 719,
+      "y": 373,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 22.268,
+      "x": 639,
+      "y": 453,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 22.616,
+      "x": 559,
+      "y": 373,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 23.081,
+      "x": 521,
+      "y": 192,
+      "kiai": true
+    },
+    {
+      "time": 23.847,
+      "x": 330,
+      "y": 207
+    },
+    {
+      "note_type": "hold",
+      "time": 24.543,
+      "x": 330,
+      "y": 207,
+      "end_x": 240,
+      "end_y": 272,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": -55
+        }
+      ],
+      "duration": 0.697
+    },
+    {
+      "time": 25.913,
+      "x": 354,
+      "y": 388
+    },
+    {
+      "time": 26.749,
+      "x": 546,
+      "y": 398
+    },
+    {
+      "time": 27.086,
+      "x": 620,
+      "y": 386
+    },
+    {
+      "time": 27.423,
+      "x": 690,
+      "y": 384,
+      "kiai": true
+    },
+    {
+      "time": 28.189,
+      "x": 816,
+      "y": 233,
+      "kiai": true
+    },
+    {
+      "time": 28.886,
+      "x": 895,
+      "y": 374,
+      "note_type": "double_tap",
+      "kiai": true
+    },
+    {
+      "time": 29.582,
+      "x": 999,
+      "y": 228,
+      "kiai": true
+    },
+    {
+      "time": 30.418,
+      "x": 828,
+      "y": 143,
+      "kiai": true
+    },
+    {
+      "time": 30.79,
+      "x": 828,
+      "y": 140,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 31.138,
+      "x": 908,
+      "y": 220,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 31.486,
+      "x": 828,
+      "y": 300,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 31.835,
+      "x": 748,
+      "y": 220,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 32.554,
+      "x": 673,
+      "y": 362,
+      "kiai": true
+    },
+    {
+      "time": 33.251,
+      "x": 673,
+      "y": 282,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 33.599,
+      "x": 753,
+      "y": 362,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 33.948,
+      "x": 673,
+      "y": 442,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 34.296,
+      "x": 593,
+      "y": 362,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 34.76,
+      "x": 454,
+      "y": 324,
+      "kiai": true
+    },
+    {
+      "time": 35.527,
+      "x": 454,
+      "y": 244,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 35.875,
+      "x": 534,
+      "y": 324,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 36.223,
+      "x": 454,
+      "y": 404,
+      "pattern": "diamond",
+      "kiai": true
+    },
+    {
+      "time": 36.92,
+      "x": 285,
+      "y": 470,
+      "kiai": true
+    },
+    {
+      "time": 37.732,
+      "x": 149,
+      "y": 343,
+      "kiai": true
+    },
+    {
+      "time": 38.499,
+      "x": 245,
+      "y": 182
+    },
+    {
+      "time": 39.195,
+      "x": 426,
+      "y": 185
+    },
+    {
+      "time": 39.892,
+      "x": 484,
+      "y": 334
+    },
+    {
+      "time": 40.588,
+      "x": 644,
+      "y": 327
+    },
+    {
+      "time": 41.401,
+      "x": 830,
+      "y": 302
+    },
+    {
+      "time": 41.749,
+      "x": 830,
+      "y": 222,
+      "pattern": "diamond"
+    },
+    {
+      "time": 42.098,
+      "x": 910,
+      "y": 302,
+      "pattern": "diamond"
+    },
+    {
+      "time": 42.446,
+      "x": 830,
+      "y": 382,
+      "pattern": "diamond"
+    },
+    {
+      "time": 42.864,
+      "x": 636,
+      "y": 350
+    },
+    {
+      "time": 43.537,
+      "x": 709,
+      "y": 350,
+      "pattern": "circle"
+    },
+    {
+      "time": 43.886,
+      "x": 636,
+      "y": 423,
+      "pattern": "circle"
+    },
+    {
+      "time": 44.234,
+      "x": 563,
+      "y": 350,
+      "pattern": "circle"
+    },
+    {
+      "time": 44.582,
+      "x": 636,
+      "y": 277,
+      "pattern": "circle"
+    },
+    {
+      "time": 44.838,
+      "x": 565,
+      "y": 178
+    },
+    {
+      "time": 45.395,
+      "x": 679,
+      "y": 166
+    },
+    {
+      "time": 46.068,
+      "x": 808,
+      "y": 227
+    },
+    {
+      "time": 46.672,
+      "x": 950,
+      "y": 216
+    },
+    {
+      "time": 47.369,
+      "x": 932,
+      "y": 140,
+      "pattern": "diamond"
+    },
+    {
+      "time": 47.717,
+      "x": 1012,
+      "y": 220,
+      "pattern": "diamond"
+    },
+    {
+      "time": 48.065,
+      "x": 932,
+      "y": 300,
+      "pattern": "diamond"
+    },
+    {
+      "time": 48.739,
+      "x": 808,
+      "y": 334
+    },
+    {
+      "time": 49.482,
+      "x": 656,
+      "y": 261
+    },
+    {
+      "note_type": "hold",
+      "time": 50.202,
+      "x": 656,
+      "y": 261,
+      "end_x": 514,
+      "end_y": 173,
+      "curve_type": "bezier",
+      "control_points": [
+        {
+          "x": 616,
+          "y": 167
+        }
+      ],
+      "duration": 1.045
+    },
+    {
+      "note_type": "hold",
+      "time": 51.572,
+      "x": 514,
+      "y": 173,
+      "end_x": 475,
+      "end_y": 260,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": -55
+        }
+      ],
+      "duration": 0.35
+    },
+    {
+      "time": 52.175,
+      "x": 517,
+      "y": 374
+    },
+    {
+      "time": 52.733,
+      "x": 454,
+      "y": 465
+    },
+    {
+      "time": 53.383,
+      "x": 362,
+      "y": 361
+    },
+    {
+      "time": 54.01,
+      "x": 264,
+      "y": 249
+    },
+    {
+      "time": 54.358,
+      "x": 222,
+      "y": 181
+    },
+    {
+      "time": 54.706,
+      "x": 178,
+      "y": 238
+    },
+    {
+      "time": 55.449,
+      "x": 175,
+      "y": 394
+    },
+    {
+      "note_type": "hold",
+      "time": 56.076,
+      "x": 175,
+      "y": 394,
+      "end_x": 152,
+      "end_y": 486,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": -55
+        }
+      ],
+      "duration": 0.35
+    },
+    {
+      "time": 56.819,
+      "x": 220,
+      "y": 348,
+      "pattern": "diamond"
+    },
+    {
+      "time": 57.168,
+      "x": 300,
+      "y": 428,
+      "pattern": "diamond"
+    },
+    {
+      "time": 57.516,
+      "x": 220,
+      "y": 508,
+      "pattern": "diamond"
+    },
+    {
+      "time": 58.212,
+      "x": 151,
+      "y": 378
+    },
+    {
+      "time": 58.909,
+      "x": 169,
+      "y": 199
+    },
+    {
+      "time": 59.315,
+      "x": 248,
+      "y": 159
+    },
+    {
+      "time": 59.722,
+      "x": 341,
+      "y": 157
+    },
+    {
+      "note_type": "hold",
+      "time": 60.488,
+      "x": 341,
+      "y": 157,
+      "end_x": 435,
+      "end_y": 169,
+      "curve_type": "linear",
+      "control_points": [],
+      "duration": 0.35
+    },
+    {
+      "time": 61.185,
+      "x": 611,
+      "y": 213
+    },
+    {
+      "time": 61.858,
+      "x": 752,
+      "y": 154
+    },
+    {
+      "time": 62.555,
+      "x": 907,
+      "y": 202
+    },
+    {
+      "time": 63.39,
+      "x": 986,
+      "y": 209,
+      "pattern": "circle"
+    },
+    {
+      "time": 63.739,
+      "x": 907,
+      "y": 288,
+      "pattern": "circle"
+    },
+    {
+      "time": 64.087,
+      "x": 828,
+      "y": 209,
+      "pattern": "circle"
+    },
+    {
+      "time": 64.435,
+      "x": 907,
+      "y": 130,
+      "pattern": "circle"
+    },
+    {
+      "time": 64.83,
+      "x": 712,
+      "y": 149,
+      "kiai": true
+    },
+    {
+      "time": 65.527,
+      "x": 606,
+      "y": 274,
+      "kiai": true
+    },
+    {
+      "note_type": "hold",
+      "time": 66.223,
+      "x": 606,
+      "y": 274,
+      "end_x": 589,
+      "end_y": 368,
+      "curve_type": "bezier",
+      "control_points": [
+        {
+          "x": 565,
+          "y": 315
+        }
+      ],
+      "duration": 0.35,
+      "kiai": true
+    },
+    {
+      "time": 67.059,
+      "x": 427,
+      "y": 469,
+      "kiai": true
+    },
+    {
+      "time": 67.431,
+      "x": 346,
+      "y": 449,
+      "kiai": true
+    },
+    {
+      "time": 67.802,
+      "x": 305,
+      "y": 370
+    },
+    {
+      "time": 68.499,
+      "x": 274,
+      "y": 195
+    },
+    {
+      "time": 69.195,
+      "x": 430,
+      "y": 220
+    },
+    {
+      "time": 69.892,
+      "x": 583,
+      "y": 273
+    },
+    {
+      "time": 70.705,
+      "x": 657,
+      "y": 446
+    },
+    {
+      "time": 71.401,
+      "x": 800,
+      "y": 424,
+      "kiai": true
+    },
+    {
+      "time": 72.168,
+      "x": 998,
+      "y": 413,
+      "kiai": true
+    },
+    {
+      "time": 72.864,
+      "x": 919,
+      "y": 272,
+      "kiai": true
+    },
+    {
+      "time": 73.561,
+      "x": 768,
+      "y": 173,
+      "kiai": true
+    },
+    {
+      "time": 74.397,
+      "x": 629,
+      "y": 315,
+      "note_type": "double_tap",
+      "kiai": true
+    },
+    {
+      "time": 75.14,
+      "x": 445,
+      "y": 329
+    },
+    {
+      "time": 75.836,
+      "x": 381,
+      "y": 161,
+      "note_type": "double_tap"
+    },
+    {
+      "time": 76.533,
+      "x": 266,
+      "y": 273
+    },
+    {
+      "note_type": "hold",
+      "time": 77.23,
+      "x": 266,
+      "y": 273,
+      "end_x": 215,
+      "end_y": 372,
+      "curve_type": "arc_curve",
+      "control_points": [
+        {
+          "height": 55
+        }
+      ],
+      "duration": 0.697
+    },
+    {
+      "time": 78.391,
+      "x": 195,
+      "y": 447,
+      "kiai": true
+    },
+    {
+      "time": 78.739,
+      "x": 255,
+      "y": 486,
+      "kiai": true
+    },
+    {
+      "time": 79.505,
+      "x": 451,
+      "y": 462,
+      "kiai": true
+    },
+    {
+      "time": 80.179,
+      "x": 521,
+      "y": 319,
+      "kiai": true
+    },
+    {
+      "time": 80.875,
+      "x": 692,
+      "y": 378,
+      "kiai": true
+    },
+    {
+      "time": 81.711,
+      "x": 880,
+      "y": 343,
+      "kiai": true
+    },
+    {
+      "note_type": "hold",
+      "time": 82.477,
+      "x": 880,
+      "y": 343,
+      "end_x": 753,
+      "end_y": 234,
+      "curve_type": "linear",
+      "control_points": [],
+      "duration": 1.045
+    },
+    {
+      "time": 83.847,
+      "x": 603,
+      "y": 198
+    },
+    {
+      "time": 84.544,
+      "x": 453,
+      "y": 261
+    },
+    {
+      "time": 85.38,
+      "x": 299,
+      "y": 142
+    },
+    {
+      "time": 85.716,
+      "x": 255,
+      "y": 202
+    },
+    {
+      "time": 86.053,
+      "x": 285,
+      "y": 264
+    },
+    {
+      "time": 86.819,
+      "x": 158,
+      "y": 417
+    },
+    {
+      "time": 87.516,
+      "x": 305,
+      "y": 484
+    },
+    {
+      "time": 88.213,
+      "x": 469,
+      "y": 408
+    },
+    {
+      "time": 89.049,
+      "x": 652,
+      "y": 344
+    },
+    {
+      "time": 89.792,
+      "x": 756,
+      "y": 198
+    },
+    {
+      "time": 90.488,
+      "x": 932,
+      "y": 231
+    },
+    {
+      "time": 91.185,
+      "x": 825,
+      "y": 349
+    },
+    {
+      "time": 91.881,
+      "x": 916,
+      "y": 481
+    },
+    {
+      "time": 92.694,
+      "x": 728,
+      "y": 495,
+      "note_type": "double_tap"
+    },
+    {
+      "time": 93.391,
+      "x": 586,
+      "y": 476
+    },
+    {
+      "time": 94.157,
+      "x": 396,
+      "y": 415
+    },
+    {
+      "time": 94.854,
+      "x": 347,
+      "y": 259
+    }
+  ]
+}

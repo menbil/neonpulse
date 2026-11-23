@@ -1,0 +1,295 @@
+[gd_scene load_steps=10 format=3 uid="uid://bn3rqye1xlpu"]
+
+[ext_resource type="Script" uid="uid://bwastpyrx785v" path="res://scripts/Main.gd" id="1_elqb8"]
+[ext_resource type="Script" uid="uid://dfyywdf62y35a" path="res://scripts/FeedbackLabel.gd" id="2_0bbpv"]
+[ext_resource type="FontFile" uid="uid://gyam66y3mdkm" path="res://assets/airstrikebold3d.ttf" id="2_jlsqs"]
+[ext_resource type="Script" uid="uid://cy4v77xn58vb" path="res://scripts/HighscoreManager.gd" id="3_vcsgt"]
+[ext_resource type="Shader" uid="uid://c20orh5hbnb5g" path="res://scenes/Main.gdshader" id="6_shader"]
+[ext_resource type="Texture2D" uid="uid://ddovki10jehel" path="res://background.png" id="7_bgimg"]
+[ext_resource type="Script" uid="uid://dsakm1t7xkn6" path="res://scripts/HitErrorBar.gd" id="8_hiterror"]
+
+[sub_resource type="Curve" id="Curve_nxtc6"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nxtc6"]
+shader = ExtResource("6_shader")
+shader_parameter/audio_low = 0.0
+shader_parameter/audio_mid = 0.0
+shader_parameter/audio_high = 0.0
+shader_parameter/spectral_centroid = 0.5
+shader_parameter/audio_intensity = 0.0
+shader_parameter/hit_pulse = 0.0
+shader_parameter/combo_intensity = 0.0
+shader_parameter/screen_shake = 0.0
+shader_parameter/brightness = 1.0
+shader_parameter/high_contrast = false
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_elqb8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer2D" parent="."]
+bus = &"Music"
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="FeedbackLabel" type="Label" parent="UI"]
+offset_left = 24.0
+offset_top = 565.0
+offset_right = 380.0
+offset_bottom = 632.0
+theme_override_colors/font_color = Color(0.78655, 0.477307, 0.28438, 1)
+theme_override_colors/font_shadow_color = Color(0.660573, 0.167449, 0.622818, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 46
+vertical_alignment = 2
+script = ExtResource("2_0bbpv")
+
+[node name="ScoreLabel" type="Label" parent="UI"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -420.0
+offset_top = 20.0
+offset_right = -24.0
+offset_bottom = 64.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.966931, 0.297426, 0.356171, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 38
+horizontal_alignment = 2
+
+[node name="RankLabel" type="Label" parent="UI"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -420.0
+offset_top = 64.0
+offset_right = -24.0
+offset_bottom = 104.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.885915, 0.587118, 0.590731, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 34
+horizontal_alignment = 2
+
+[node name="ComboLabel" type="Label" parent="UI"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -420.0
+offset_top = 104.0
+offset_right = -24.0
+offset_bottom = 140.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.3, 0.9, 0.3, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 30
+text = "Combo: 0"
+horizontal_alignment = 2
+
+[node name="AccuracyLabel" type="Label" parent="UI"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -420.0
+offset_top = 140.0
+offset_right = -24.0
+offset_bottom = 174.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.9, 0.9, 0.3, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 26
+text = "Accuracy: 100%"
+horizontal_alignment = 2
+
+[node name="VBox" type="VBoxContainer" parent="UI"]
+offset_right = 626.0
+offset_bottom = 644.0
+mouse_filter = 2
+
+[node name="HighscoreLabel" type="Label" parent="UI/VBox"]
+layout_mode = 2
+
+[node name="HitErrorBar" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -50.0
+offset_right = 200.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+script = ExtResource("8_hiterror")
+
+[node name="CountdownLabel" type="Label" parent="UI"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -75.0
+offset_right = 100.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 150
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TimingFeedback" type="Label" parent="UI"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -150.0
+offset_top = -120.0
+offset_right = 150.0
+offset_bottom = -80.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 0.84, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 35
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HighscoreManager" type="Node2D" parent="."]
+position = Vector2(-1, 1)
+script = ExtResource("3_vcsgt")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+z_index = 1
+offset_right = 1152.0
+offset_bottom = 8.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.89444, 0, 0.258992, 1)
+theme_override_colors/font_outline_color = Color(0.817651, 0.34014, 0.624164, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+show_percentage = false
+
+[node name="PerfectParticles" type="CPUParticles2D" parent="."]
+position = Vector2(565, 361)
+emitting = false
+amount = 2
+lifetime = 1.37
+speed_scale = 3.42
+explosiveness = 1.0
+fract_delta = false
+spread = 58.58
+initial_velocity_min = 14.15
+initial_velocity_max = 547.17
+orbit_velocity_min = 10.3
+orbit_velocity_max = 10.3
+scale_amount_min = 0.0
+scale_amount_max = 31.3
+scale_amount_curve = SubResource("Curve_nxtc6")
+
+[node name="Background" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_nxtc6")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -3.0
+offset_right = 1157.0
+offset_bottom = 655.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("7_bgimg")
+stretch_mode = 2
+
+[node name="Results" type="Panel" parent="."]
+process_mode = 3
+visible = false
+z_index = 4
+offset_left = 346.0
+offset_top = 144.0
+offset_right = 806.0
+offset_bottom = 504.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Results"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 20.0
+offset_right = -24.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+
+[node name="RankLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+
+[node name="HighscoreLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+
+[node name="ComboLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 28
+text = "MAX COMBO: 0"
+horizontal_alignment = 1
+
+[node name="AccuracyLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 28
+text = "ACCURACY: 100%"
+horizontal_alignment = 1
+
+[node name="StatsLabel" type="Label" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_fonts/font = ExtResource("2_jlsqs")
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
+
+[node name="ReturnButton" type="Button" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+text = "Retour"
+
+[node name="RestartButton" type="Button" parent="Results/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jlsqs")
+text = "Recommencer"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="pressed" from="Results/VBoxContainer/ReturnButton" to="." method="_on_return_button_pressed"]
+[connection signal="pressed" from="Results/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
